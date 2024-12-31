@@ -1,0 +1,89 @@
+
+.todo-outer-div{
+    background-color: rgb(94, 156, 136);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   
+}
+.todo-div{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.inputField{
+    width: 425px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.addTaskButton{
+    height: 36px;
+    width: 75px;
+    background-color: rgb(85, 85, 206);
+    border: 1px solid rgb(85, 85, 206);
+    color: white;
+    border-radius: 10px;
+}
+.inputFieldDiv{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.displayDiv{
+    width: 500px;
+    /* border: 1px solid grey; */
+    height: 250px;
+    margin-top: 20px !important;
+    border-radius: 8px;
+    margin: auto; 
+    overflow: scroll;
+}
+.tableRow{
+    height: 40px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+
+}
+
+.tableContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+.EdittableContent{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 25%;
+}
+.tableData{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding-left: 20px;
+}
+.completed{
+    width: 5%;
+}
+.strike{
+    opacity: 0.5;
+}
+.no-strike{
+
+    opacity: 1;
+}
